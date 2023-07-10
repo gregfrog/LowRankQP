@@ -26,7 +26,7 @@ extern void MatrixConstantSet(double *, double *, int *, int *);
 extern void MatrixMatrixMult(double *, double *, int *, double *, int *, double *, double *, int *, 
     int *, int *, int *, int *, int *);
     
-extern void LRQPHeader();   
+extern void LRQPHeader(void);   
 
 extern void LRQPInitPoint(int *, int *, int *, double *, double *, double *, double *, double *, 
     double *, double *, double *, double *, double *, double *);
